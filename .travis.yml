@@ -16,4 +16,4 @@ before_install:
 
   - docker build -t andgandolfi/react-test -f client/Dockerfile.dev client
 script:
-  - docker run -e CI=true andgandlfi/react-test npm run test
+  - docker run -e CI=true andgandolfi/react-test npm run test
