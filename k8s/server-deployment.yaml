@@ -35,7 +35,3 @@ spec:
             value: "5432"
           - name: PGDATABASE
             value: postgres
-        resources:
-          limits:
-            memory: 256Mi
-            cpu: 200m
